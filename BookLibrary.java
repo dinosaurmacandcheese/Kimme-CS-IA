@@ -23,4 +23,11 @@ public class BookLibrary {
         }
         return null;
     }
+    public boolean isBook(String input){
+        if (getBookIDByName(input) != null || getBookNameByID(input) != null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
