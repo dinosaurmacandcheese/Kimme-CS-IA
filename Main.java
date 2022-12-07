@@ -27,6 +27,14 @@ public class Main {
         accounts.remove(id);
         people.remove(name);
     }
+    //data validation person
+    public boolean isPerson(String id) {
+        if (accounts.containsKey(id)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     public static void main(String[] args) { //dont do a Main object
         GUI guiCreater = new GUI();
         guiCreater.createLibraryGUI();
