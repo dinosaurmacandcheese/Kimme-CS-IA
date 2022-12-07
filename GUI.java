@@ -1,8 +1,5 @@
 import javax.swing.*;
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
-
 import java.awt.event.*;
-import java.awt.*;
 
 public class GUI extends Main {
     BookLibrary library;
