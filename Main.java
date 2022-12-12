@@ -35,6 +35,7 @@ public class Main {
             return false;
         }
     }
+    
     public static void main(String[] args) { //dont do a Main object
         GUI guiCreater = new GUI();
         guiCreater.createLibraryGUI();
